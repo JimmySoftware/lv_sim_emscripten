@@ -1,0 +1,23 @@
+{
+    "name": "Emscripten ENV",
+    "dockerFile": "Dockerfile",
+    "appPort": [8800],
+    "runArgs": ["-u", "root"],
+    "settings": {
+        "workbench.colorTheme": "Solarized Dark",
+        "terminal.integrated.profiles.linux": {
+            "bash": {
+                "path": "bash",
+                "icon": "terminal-bash"
+            },
+            "zsh": {
+                "path": "zsh"
+            }
+        }
+    },
+    "postCreateCommand": "npm install",
+    "postAttachCommand": "echo 'See BUILD.md for LVGL examples build instruction'",
+    "extensions": [
+        "esbenp.prettier-vscode"
+    ]
+}
