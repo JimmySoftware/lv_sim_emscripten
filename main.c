@@ -19,6 +19,7 @@
 #include "lv_drivers/indev/keyboard.h"
 
 #include "lv_examples/lv_examples.h"
+#include "lvgl_apps/lvgl_apps.h"
 
 /*********************
  *      DEFINES
